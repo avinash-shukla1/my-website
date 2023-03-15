@@ -229,4 +229,33 @@ img{
   left: 5%;
     font: 200 4vmax "Gil";
   }
-  
+  @media ( max-width:500px){
+    .page1>h1{
+      font-size: 14px;
+    }
+    .page2 > h1 {
+      font: 380 3vmax "Gil";
+      text-align: center;
+      width: 44vw;
+  }
+  .page2 > p {
+    font: 500 2.2vmax "Gil";
+    box-shadow: 1px 1px 5px 0px rgb(75, 66, 66);
+    text-align: center;
+    height: 16vw;
+    margin: 14vmax 0;
+    width: 70vw;
+}
+.page3-title {
+  font: 500 6vmax "Gil";
+margin-top: 10vmax;}
+  .page3 > p {
+    font: 400 3.2vmax "Gil";}
+    .page5 > h1 {
+      position: absolute;
+      top: 170%;
+      left: 5%;
+      font: 200 4vmax "Gil";
+  }
+
+  }
